@@ -6,7 +6,7 @@ These notes come from real incidents across the projects on this account: games,
 
 ## How to use this
 
-Before you start an operation, open the file for that area and read the standing rules. It takes a minute and it is cheaper than repeating a known failure.
+Start every session with [notes/working-protocol.md](notes/working-protocol.md): read the project's state files and recent commits before changing anything. Then, before you start an operation, open the file for that area and read the standing rules. It takes a minute and it is cheaper than repeating a known failure.
 
 | About to... | Read first |
 | --- | --- |
@@ -18,6 +18,7 @@ Before you start an operation, open the file for that area and read the standing
 | Ship anything with network calls, user data or storage | [notes/security.md](notes/security.md) |
 | Design a screen or pick a visual direction | [notes/design-rules.md](notes/design-rules.md) |
 | Touch a token, key, password or one-time code | [notes/secret-handling.md](notes/secret-handling.md) |
+| Start, resume or hand off any task | [notes/working-protocol.md](notes/working-protocol.md) |
 
 When something goes wrong mid-task, search this repo for the symptom (an error message, a status code, a behavior) before debugging from scratch.
 
@@ -30,6 +31,10 @@ Every entry has the same five parts:
 - **Root cause** - why it actually happened
 - **Fix** - what resolved it
 - **Rule** - the standing rule it became
+
+## Templates
+
+[templates/](templates/) holds the per-project state files (`CURRENT_TASK.md`, `CHECKPOINT.md`, `HANDOFF.md`) and a task spec with acceptance criteria and finding IDs. Copy them into a project when work on it starts.
 
 ## Adding an entry
 
