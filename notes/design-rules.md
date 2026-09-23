@@ -32,6 +32,7 @@
 ## Depth and light are requirements
 
 - **Rule:** Where the subject is physical (water, light, 3D worlds), depth, lighting and optics are part of the brief, not polish for later.
+- **Rule:** If reaching the reference needs a game engine, use Godot. See [engines-and-tooling.md](engines-and-tooling.md).
 
 ## Mobile first means checked at 390px
 

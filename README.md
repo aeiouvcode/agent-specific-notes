@@ -17,6 +17,7 @@ Start every session with [notes/working-protocol.md](notes/working-protocol.md):
 | Call a build done, or grade it | [notes/qa-and-verification.md](notes/qa-and-verification.md) |
 | Ship anything with network calls, user data or storage | [notes/security.md](notes/security.md) |
 | Design a screen or pick a visual direction | [notes/design-rules.md](notes/design-rules.md) |
+| Hit the limits of a renderer, or pick an engine or stack | [notes/engines-and-tooling.md](notes/engines-and-tooling.md) |
 | Touch a token, key, password or one-time code | [notes/secret-handling.md](notes/secret-handling.md) |
 | Start, resume or hand off any task | [notes/working-protocol.md](notes/working-protocol.md) |
 
