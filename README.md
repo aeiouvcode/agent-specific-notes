@@ -39,3 +39,7 @@ Every entry has the same five parts:
 ## Adding an entry
 
 Add a new entry when a failure costs real time, reaches the owner, or happens a second time. Put it in the matching file, keep the five-part format, and state the rule as something a future session can follow without context. If no file fits, create one and add it to the table above. Never put tokens, passwords, private addresses or personal data in an entry.
+
+## Related
+
+Part of a set of three: this repo is the failure log, [plan-orchestrator](https://github.com/aeiouvcode/plan-orchestrator) is the working method (agent contract, state templates, orchestration rules), and [research-archive](https://github.com/aeiouvcode/research-archive) holds the research behind each project.
